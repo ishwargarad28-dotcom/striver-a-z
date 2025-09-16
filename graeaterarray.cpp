@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 // {
+       //from user input
 //     int size=5;
 //     int  marks[size];
 //     int greater=INT_MIN;
@@ -19,6 +20,7 @@ int main()
 //     return 0;
 // }
 {
+    //direct values
     int nums[]={45,67,98,34,78};
     int size=5;
     int greater=INT_MIN;
