@@ -1,0 +1,31 @@
+#include <iostream>
+#include <queue>   // Required for queue
+using namespace std;
+
+int main() {
+    queue<int> q;  // Create a queue of integers
+
+    // Inserting elements
+    q.push(10);
+    q.push(20);
+    q.push(30);
+
+    cout << "Front element: " << q.front() << endl;  // 10
+    cout << "Back element: " << q.back() << endl;    // 30
+    cout << "Queue size: " << q.size() << endl;      // 3
+
+    // Removing elements
+    q.pop(); // Removes 10
+
+    cout << "After pop, new front: " << q.front() << endl; // 20
+
+    // Displaying remaining elements
+    cout << "Remaining elements: ";
+    while (!q.empty()) {
+        cout << q.front() << " ";
+        q.pop();
+    }
+
+    cout << "\nQueue is now empty." << endl;
+    return 0;
+}
