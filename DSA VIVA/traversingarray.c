@@ -9,18 +9,9 @@ int main()
     {
         scanf("%d",&array[i]);
     }
-    printf("enter the insert num :");
-    scanf("%d", &num);
-    printf("enter the position :");
-    scanf("%d", &position);
-    for (int i = size - 1; i >= position - 1; i--)
-    {
-        array[i + 1] = array[i];
-    }
-    array[position-1]=num;
-    size++;
+    printf("elements in an array :");
     for (int i = 0; i < size; i++)
     {
-        printf("%d", array[i]);
+        printf("%d",array[i]);
     }
 }
