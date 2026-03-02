@@ -12,5 +12,5 @@ void printnum(int n)
 }
 int main()
 {
-    printnum(4);
+    printnum(4n);
 }
