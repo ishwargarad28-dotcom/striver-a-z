@@ -7,6 +7,6 @@ int sum(int n){
     return n+sum(n-1);
 }
 int main(){
-    cout<<sum(4)<<endl;
+    cout<<sum(10)<<endl;
     return 0;
 }
